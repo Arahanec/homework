@@ -1,0 +1,63 @@
+li{
+  display: inline-block;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+}
+.stovp {
+  display: flex;
+  align-items: flex-end;
+  height: 300px;
+}
+.stovp div{
+  width: 150px;
+}
+.procent{
+  display: flex;
+  flex-direction: row;
+}
+.procent p{
+  width: 150px;
+  text-align: center;
+}
+.one{
+  height: 70%;
+  background: red;
+  color: red;
+}
+.two{
+  height: 50%;
+  background: violet;
+  color: violet;
+}
+.three{
+  height: 30%;
+  background: green;
+  color: green;
+}
+.four{
+  height: 100%;
+  background: yellow;
+  color: yellow;
+}
+.five{
+  height: 90%;
+  background: orange;
+  color: orange;
+}
+.six{
+  height: 60%;
+  background: blue;
+  color: blue;
+}
+.seven{
+  height: 10%;
+  background: pink;
+  color: pink;
+}
+.eight{
+  height: 35%;
+  background: violet;
+  color: violet;
+}

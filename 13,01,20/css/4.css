@@ -1,0 +1,21 @@
+table {
+    width: 50%;
+    background: white;
+    border: 1px;
+}
+th{
+  background: black;
+  color: white;
+}
+tr:nth-child(odd){
+  background: gray;
+}
+tr td:nth-child(3){
+  text-align: center;
+}
+tr td:nth-child(4){
+  text-align: center;
+}
+tr td:nth-child(5){
+  text-align: right;
+}

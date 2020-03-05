@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/6.css">
+    <title></title>
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">1 задание</a></li>
+      <li><a href="2.html">2 задание</a></li>
+      <li><a href="3.html">3 задание</a></li>
+      <li><a href="4.html">4 задание</a></li>
+      <li><a href="5.html">5 задание</a></li>
+      <li><a href="6.html">6 задание</a></li>
+    </ul>
+    <form class="" action="index.html" method="post">
+      <header>
+        <h1>Hotel Booking</h1>
+      </header>
+      <div class="name">
+        <p class="one">Name *</p>
+        <div><input type="text" name="firstname" placeholder="Firstname" class="inp"></div>
+        <div><input type="text" name="lastname" placeholder="Lastname" class="inp"></div>
+      </div>
+
+      <div class="email">
+        <p class="two">E-mail *</p>
+        <input type="email" placeholder="myname@example.com" class="inp">
+      </div>
+
+      <div class="room">
+        <p class="three">Room Type</p>
+        <select class="" name="room">
+          <option> </option>
+          <option>1 Room</option>
+          <option>2 Room</option>
+          <option>3 Room</option>
+        </select>
+      </div>
+
+      <div class="number">
+        <p class="four">Number of guests *</p>
+        <input type="number" min="0" max="100" step="1" name="number" value="0" class="inp">
+      </div>
+
+      <div class="date">
+        <p class="five">Arrival Dates & Time *</p>
+        <input type="date" name="date" class="inp">
+      </div>
+      <div class="time">
+        <select class="hour" name="hour" placeholder="Hour"><option>Hour</option><option>1</option><option>2</option><option>7</option><option>12</option></select>
+        <select class="minutes" name="minutes" placeholder="Minutes"><option>Minutes</option><option>1</option><option>22</option><option>47</option><option>59</option></select>
+        <select class="day-time" name="day-time"><option>AM</option><option>PM</option></select>
+      </div>
+
+      <div class="date">
+        <p class="six">Departure Date *</p>
+        <select class="month" name="month"><option>Month</option><option>1</option><option>2</option><option>7</option><option>12</option></select>
+        <select class="day" name="day"><option>Day</option><option>1</option><option>12</option><option>23</option><option>31</option></select>
+        <select class="year" name="year"><option>Year</option><option>2020</option><option>2022</option><option>2027</option><option>2034</option></select>
+      </div>
+      <div class="picname">
+        <p class="seven">Free Pickup? *</p>
+      <div class="pickup">
+        <div><input type="radio" name="yesorno">
+        <label for="">Yes Please! - pick me up on arrival</label></div>
+        <div><input type="radio" name="yesorno">
+        <label for="">No Thanks - I'll make my own way there</label></div>
+      </div></div>
+      <div class="description">
+        <p class="eight">Flight Number</p>
+        <textarea name="description" rows="1" cols="80"></textarea>
+      </div>
+
+      <div class="description">
+        <p class="nine">Spesial Requests</p>
+        <textarea name="description" rows="8" cols="80"></textarea>
+      </div>
+      <div class="button">
+        <button type="submit">Send</button>
+      </div>
+    </form>
+  </body>
+</html>

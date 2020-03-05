@@ -1,0 +1,16 @@
+li{
+  display: inline-block;
+}
+img{
+  max-width: 100%;
+}
+.center{
+  margin: 10px 0 10px 0;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 0 0 10px;
+}
+
+.article-container article{
+  width: calc(100%/3);
+  float: left;
+}

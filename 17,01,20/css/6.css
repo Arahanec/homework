@@ -1,0 +1,112 @@
+li{
+  display: inline-block;
+}
+.name{
+  display: flex;
+}
+.pickup{
+  display: flex;
+  flex-direction: column;
+}
+.description{
+  margin-top: 30px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 30px;
+  width: 50%;
+  padding-left: 10px;
+  background: #e3dcdc;
+}
+input[type="text"]{
+  margin: 0 10px 0 0;
+}
+input[type="email"]{
+  width: 250px;
+}
+.inp, select, textarea{
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  box-shadow: 0 0 1px;
+}
+.inp:hover, select:hover, textarea:hover{
+  border: 1px solid #e56363;
+  border-radius: 3px;
+}
+textarea{
+resize: none;
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine{
+  float: left;
+}
+.one{
+  margin: 5px 151px 25px 5px;
+}
+.two{
+  margin: 5px 145px 25px 5px;
+}
+.three{
+  margin: 5px 126px 25px 5px;
+}
+.four{
+  margin: 5px 76px 25px 5px;
+}
+.five{
+  margin: 5px 50px 25px 5px;
+}
+.time{
+  margin: 0 5px 25px 207px;
+}
+.six{
+  margin: 5px 91px 25px 5px;
+}
+.seven{
+  margin: 5px 100px 25px 5px;
+}
+.eight{
+  margin: 5px 104px 25px 5px;
+}
+.nine{
+  margin: 5px 90px 25px 5px;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 20px 0;
+  width: 100%;
+}
+button{
+  height: 50px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 30px;
+  background: #ff7b00;
+  color: white;
+  text-decoration: underline;
+  font-size: 17px;
+}
+button:hover{
+  background: grey;
+}
+@media screen and (max-width: 1200px){
+  .one, .two, .three, .four, .five, .time, .six, .seven, .eight, .nine, .inp, select{
+    margin: 0 0 10px;
+  }
+  input[type="text"]{
+    margin: 0 0 10px 0;
+    width: 100%;
+  }
+  input[type="email"]{
+    width: 100%;
+  }
+  form{
+    padding: 5px;
+  }
+  .name, .email, .room, .number, .date, .time, .picname, .description{
+      display: flex;
+      flex-direction: column;
+  }
+
+}
